@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your name
-# Username: heggens             TODO: Change this to your username
+# Author: Ben Maynard
+# Username: maynardb
 #
 # Assignment: A01
 #
@@ -17,11 +17,12 @@
 ######################################################################
 # (Required) Task 1
 # TODO Ask user for their birth year
-
+birfday = input("What year were you born on? ")
 
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
-
+if birfday == 1976 or 1988 or 2000:
+    print("Have you seen Mulan? well you're a dragon just like mushu.")
 
 ######################################################################
 # (Required) Task 2
