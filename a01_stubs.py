@@ -21,16 +21,18 @@ birfday = input("What year were you born on? ")
 
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
-if birfday == 1976 or 1988 or 2000:
+if birfday == 1976 or birfday == 1988 or birfday == 2000:
     print("Have you seen Mulan? well you're a dragon just like mushu.")
+
 
 ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
-
+friend = input("What's your friends birth year?")
 
 # TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
-
+if friend == 1979 or friend == 1991 or friend == 2003:
+    print("You're the GOAT")
 
 ######################################################################
 # (Optional) Task 3
